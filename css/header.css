@@ -1,25 +1,6 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-*:after {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Barlow', sans-serif;
-    height: 2000px;
-    padding-top: 23px;
-}
-
-button:focus, input:focus {
-    outline: none;
-}
-
 .header {
-    /*background-color: darkorange;*/
-    /*border: 1px solid black;*/
+    /*background: blue;*/
+    margin: 0 15px;
 }
 
 #title-cofe {
@@ -43,7 +24,7 @@ button:focus, input:focus {
     /*background-color: indigo;*/
     align-items: center;
     position: relative;
-    margin-top: 36px;
+    height: 80px;
 }
 
 .child {
@@ -55,13 +36,11 @@ button:focus, input:focus {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    padding: 0 25px;
     /*background: red;*/
 }
 
 .slogan {
     font-size: 14px;
-    margin-left: 20px;
 }
 
 .nav-menu {
