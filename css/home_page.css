@@ -1,0 +1,14 @@
+.home-content {
+    border: 1px solid red;
+    width: 97%;
+    margin: auto;
+    align-items: center;
+    background: url("../assets/images/home0.webp") ;
+    min-height: calc(100vh - 200.45px);
+}
+
+.home-title {
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+}

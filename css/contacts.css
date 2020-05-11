@@ -1,0 +1,92 @@
+.main-container {
+	margin: 0 15px;
+	height: 2000px;
+	/*background: darkorange;*/
+}
+
+.cafename {
+	margin-top: 35px;
+	margin-bottom: 80px;
+}
+
+.rightpic {
+	/*border: 1px solid black;*/
+	position: absolute;
+	right: 15px;
+}
+
+.h1-contact {
+	font: 50px Barlow;
+	padding-top: 70px;
+	padding-left: 40px;
+	padding-bottom: 50px;
+	/*background: blue;*/
+}
+
+.flex-container {
+	margin-left: 40px;
+	/*background: white;*/
+}
+
+.flex-muni {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 140px;
+	/*background: green;*/
+}
+
+.child-muni {
+	width: 30.5%;
+	/*background: indigo;*/
+}
+
+
+.child-muni-last {
+	width: 37%;
+	/*background: indigo;*/
+}
+
+.adr {
+	font: 20px Barlow;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.name-of-cafe {
+	font-size: 38px;
+	margin-bottom: 25px;
+}
+
+.margin-25 {
+	margin: 40px 0 25px;
+}
+
+.btn-map-open {
+	padding-left: 50px;
+	padding-top: 50px;
+	text-decoration: none;
+	font-family: 'Barlow';
+	color: #000;
+	display: block;
+	position: relative;
+}
+
+.btn-map-open:after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 1px;
+	background-color: #000;
+	margin-top: 5px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	transition: width 0.4s;
+	margin-left: 50px;
+}
+
+.btn-map-open:hover:after {
+	width: 16%;
+}
+

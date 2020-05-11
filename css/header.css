@@ -13,16 +13,28 @@ body {
     padding-top: 23px;
 }
 
+button:focus, input:focus {
+    outline: none;
+}
+
 .header {
     /*background-color: darkorange;*/
+    /*border: 1px solid black;*/
 }
 
 #title-cofe {
     text-align: center;
     font-family: 'Lora', serif;
     font-size: 36px;
-    padding: 10px 0;
+    padding: 10px 0 0;
     /*background-color: red;*/
+}
+
+#little-title {
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    /*background-color: darkslategrey;*/
 }
 
 .flex-box {
@@ -31,7 +43,7 @@ body {
     /*background-color: indigo;*/
     align-items: center;
     position: relative;
-    margin-top: 45px;
+    margin-top: 36px;
 }
 
 .child {
@@ -45,6 +57,11 @@ body {
     box-sizing: border-box;
     padding: 0 25px;
     /*background: red;*/
+}
+
+.slogan {
+    font-size: 14px;
+    margin-left: 20px;
 }
 
 .nav-menu {
@@ -76,11 +93,11 @@ body {
     width: 0;
     height: 1.5px;
     background-color: #000;
+    margin-top: 5px;
     position: absolute;
     top: 100%;
     left: 0;
     z-index: 1;
-
     transition: width 0.4s;
 }
 
