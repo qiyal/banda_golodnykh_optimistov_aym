@@ -1,5 +1,11 @@
+"use strict"
+
 const btnLogIn = document.querySelector('#btn-login');
 const btnRegister = document.querySelector('#btn-register');
+
+const parallax = document.querySelector('.paralax');
+const paralaxBg = document.querySelector('.paralax-box');
+
 
 btnLogIn.addEventListener('click', function () {
     console.log("Modal");
@@ -43,3 +49,23 @@ btnLogIn.addEventListener('click', function () {
     modalCloseBtn.addEventListener('click', closeModal);
     modalSubmitBtn.addEventListener('click', submitModal);
 });
+
+function parallaxEffect(event) {
+    // const origionPosition = '-340px ';
+    // const position = origionPosition + ( -337 + (event.clientY / 5)) + 'px';
+    // console.log(event.clientY);
+    // console.log(position);
+    // paralaxBg.style.backgroundPosition = position;
+    
+    
+    console.log(pageYOffset);
+ 
+
+    if(pageYOffset > 1353 && pageYOffset < 3044) {
+        const position = '-340px ' + (-650 + (((pageYOffset)  / 5))) + 'px';
+        paralaxBg.style.backgroundPosition = position;
+        console.log(position);
+    }
+}
+
+document.addEventListener('scroll', parallaxEffect);

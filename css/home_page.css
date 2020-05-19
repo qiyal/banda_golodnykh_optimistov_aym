@@ -93,12 +93,37 @@
 
 .home-slider {
     padding: 140px 0;
-    background: green;
+    /* background: green; */
     text-align: center;
 }
 
 .h2-home {
     font-size: 54px;
     margin-bottom: 40px;
+}
+
+.paralax {
+    padding: 140px 0;
+    /* background-color: black; */
+}
+
+.home-paralax {
+}
+
+.paralax-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(80vh);
+    color: #fff;
+    background-image: url("../assets/images/home/paralax.webp");
+    background-repeat: no-repeat;
+    background-position: -340px -290px;
+    transition: background-position 180ms;
+}
+
+.paralax-title {
+    font-size: 76px;
 }
 
