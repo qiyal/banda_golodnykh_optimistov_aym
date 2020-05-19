@@ -25,3 +25,28 @@ button:focus, input:focus {
 .test {
     height: 700px;
 }
+
+.btn-a-style {
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    position: relative;
+    color: #000;
+}
+
+.btn-a-style:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: #000;
+    margin-top: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: width 0.4s;
+}
+
+.btn-a-style:hover:after {
+    width: 100%;
+}

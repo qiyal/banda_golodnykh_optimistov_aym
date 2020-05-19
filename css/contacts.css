@@ -44,6 +44,7 @@
 	font: 20px Barlow;
 	padding-top: 50px;
 	padding-left: 50px;
+	margin-bottom: 50px;
 }
 
 .name-of-cafe {
@@ -56,31 +57,8 @@
 }
 
 .btn-map-open {
-	padding-left: 50px;
-	padding-top: 50px;
-	text-decoration: none;
-	font-family: 'Barlow';
-	color: #000;
-	display: block;
-	position: relative;
-}
-
-.btn-map-open:after {
-	content: "";
-	display: block;
-	width: 0;
-	height: 1px;
-	background-color: #000;
-	margin-top: 5px;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	z-index: 1;
-	transition: width 0.4s;
+	font-size: 16px;
 	margin-left: 50px;
 }
 
-.btn-map-open:hover:after {
-	width: 16%;
-}
 

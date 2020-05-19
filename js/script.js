@@ -29,8 +29,11 @@ btnLogIn.addEventListener('click', function () {
 
     function closeModal() {
         console.log("close");
-        document.querySelector('body').removeChild(document.querySelector('.modal'));
-        document.querySelector('body').style.overflow = '';
+        document.querySelector('.modal-body').style.animation = 'modal-close .6s ease-in-out';
+        setTimeout(function () {
+            document.querySelector('body').removeChild(document.querySelector('.modal'));
+            document.querySelector('body').style.overflow = '';
+        }, 600);
     }
 
     function submitModal(event) {

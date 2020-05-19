@@ -1,7 +1,7 @@
 .poster-box {
     background: url("../assets/images/home/home0.jpg") no-repeat center center;
     background-size: cover;
-    height: 473px;
+    height: calc(100vh - 270px);
     padding: 40px 0;
     text-align: center;
     color: #ffffff;
@@ -19,3 +19,86 @@
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
 }
+
+.flex-box-home {
+    /*background: blue;*/
+    padding: 140px 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-child-home {
+    width: 32.7%;
+    height: 540px;
+    background: #f5eaec;
+}
+
+.ch-1 {
+    background: url("../assets/images/home/store1.webp") no-repeat center center;
+    background-size: cover;
+}
+
+.ch-2 {
+    background: url("../assets/images/home/store2.webp") no-repeat center center;
+    background-size: cover;
+}
+
+.ch-1:before, .ch-2:before {
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    background: rgba(255,255,255,.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 540px;
+    opacity: 0;
+    transition: opacity .4s;
+}
+
+.ch-1:before {
+    content: "Breakfast & Lunch";
+}
+
+.ch-2:before {
+    content: "Coffee & Tea";
+}
+
+.ch-1:hover:before, .ch-2:hover:before {
+    opacity: 1;
+}
+
+.ch-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: red;*/
+}
+
+.ch-3-h2 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.ch-3-div {
+    width: 80%;
+    margin: 0 auto 25px;
+    font-size: 16px;
+}
+
+.home-slider {
+    padding: 140px 0;
+    background: green;
+    text-align: center;
+}
+
+.h2-home {
+    font-size: 54px;
+    margin-bottom: 40px;
+}
+

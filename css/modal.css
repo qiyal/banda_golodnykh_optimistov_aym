@@ -14,6 +14,7 @@
     background: rgb(255, 196, 85);
     box-sizing: border-box;
     padding: 30px;
+    animation: modal-open .6s ease-in-out;
 }
 
 .modal-head {
