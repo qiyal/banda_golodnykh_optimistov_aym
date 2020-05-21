@@ -1,0 +1,79 @@
+/* Write Ayaulym Sibaeva Start */
+.title {
+	margin-bottom: 80px;
+	margin-top: 35px;
+}
+
+.rightpic {
+	/*border: 1px solid black;*/
+	position: absolute;
+    right: 15px;
+    width: 300px;
+    height: 500px;
+    margin-top: -80px;
+}
+
+.h1-title {
+	font: 50px Barlow;
+	padding-top: 70px;
+	padding-left: 40px;
+	padding-bottom: 50px;
+	/*background: blue;*/
+}
+
+.main-cont {
+    max-width: 1230px;
+    /*выравнивание по центру*/
+    margin:auto;
+}
+
+.box-1{
+    width: 95;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 40px;
+    margin-top: 250px;
+
+}
+
+div.polaroid {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    width: 31.6%;
+    float: right;
+  }
+
+
+div.description {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.box-2 {
+    width: 95;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 40px;
+    margin-top: 50px;
+
+}
+
+.smalcart {
+float: right;
+height: 55px;
+padding: 10px;
+padding-left: 15px;
+margin: 10px;
+border: 1px solid gray;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+background: #E6DEEA;
+}
+
+/* Write Ayaulym Sibaeva End */
+
+

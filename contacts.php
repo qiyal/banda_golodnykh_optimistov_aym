@@ -1,42 +1,24 @@
+<!-- Write Munira Kasymova Start -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/contacts.css">
     <link rel="stylesheet" href="css/animation.css">
-    <link href="https://fonts.googleapis.com/css?family=Barlow|Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/register.css">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
     <title>Contact</title>
 </head>
 <body>
 <!-- HEADER OPEN -->
-    <header class="header">
-        <h1 id="title-cofe">Mandarin Café</h1>
-        <small id="little-title">coffee & sweets</small>
-        <div class="flex-box">
-            <div class="child">
-                <h2 class="slogan">#stay_home</h2>
-                <h2 class="slogan">Chocolate + Milk = Love</h2>
-            </div>
-            <nav class="nav-menu">
-                <ul class="nav-ul">
-                    <li><a class="nav-ul-a" href="index.html">Home</a></li>
-                    <li><a class="nav-ul-a" href="">Products</a></li>
-                    <li><a class="nav-ul-a" href="">About</a></li>
-                    <li><a class="nav-ul-a" href="">Service</a></li>
-                    <li><a class="nav-ul-a" href="contacts.html">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="child child-last">
-                <button id="btn-login">Log in</button>
-                <button id="btn-register">Register</button>
-            </div>
-        </div>
-    </header>
+    <?php 
+        require_once "elems/header.php";
+    ?>
 <!-- HEADER CLOSE -->
 
 <!-- CONTACTS OPEN-->
@@ -70,7 +52,7 @@
                         <br><br>
                         Sunday.......................9am - 6pm
                     </div>
-                    <a class="btn-a-style btn-map-open" href="">Open in Map</a>
+                    <a class="btn-a-style btn-map-open" target="_blank" href="https://www.google.com/maps?ll=43.245561,76.927439&z=16&t=m&hl=ru&gl=KZ&mapclient=embed&q=%D1%83%D0%BB%D0%B8%D1%86%D0%B0+%D0%91%D0%B0%D0%B9%D1%82%D1%83%D1%80%D1%81%D1%8B%D0%BD%D0%BE%D0%B2%D0%B0+68%D0%B1+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B+050000">Open in Map</a>
                 </div>
             </div>
 
@@ -96,7 +78,7 @@
                         <br><br>
                         Sunday.......................9am - 6pm
                     </div>
-                    <a class="btn-a-style btn-map-open" href="">Open in Map</a>
+                    <a class="btn-a-style btn-map-open" target="_blank" href="https://www.google.com/maps?ll=43.245561,76.927439&z=16&t=m&hl=ru&gl=KZ&mapclient=embed&q=%D1%83%D0%BB%D0%B8%D1%86%D0%B0+%D0%91%D0%B0%D0%B9%D1%82%D1%83%D1%80%D1%81%D1%8B%D0%BD%D0%BE%D0%B2%D0%B0+68%D0%B1+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B+050000">Open in Map</a>
                 </div>
             </div>
 
@@ -122,12 +104,52 @@
                         <br><br>
                         Sunday.......................9am - 6pm
                     </div>
-                    <a class="btn-a-style btn-map-open" href="">Open in Map</a>
+                    <a class="btn-a-style btn-map-open" target="_blank" href="https://www.google.com/maps/place/%D0%BF%D1%80%D0%BE%D1%81%D0%BF.+%D0%90%D0%B1%D0%B0%D1%8F+69,+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B+050000/@43.242122,76.931761,16z/data=!4m5!3m4!1s0x38836ec5104e6879:0xc304fd8c3c64d7a!8m2!3d43.2421224!4d76.9317613?hl=ru">Open in Map</a>
                 </div>
             </div>
         </div>
     </div>
 <!-- CONTACTS CLOSE-->
+<!-- MODAL -->
+            <div class="window-box">
+                <div class="window">
+                    <!-- Картинка крестика -->
+                    <button class="close">X</button>
+
+                	<header class="header">
+                        <h1 id="title-cofe">Mandarin Café</h1>
+                        <small id="little-title">coffee & sweets</small>
+                    </header>
+
+
+                	<div class="form">
+                        <h2>Sign up</h2>
+                        <form action="registration.php" method="POST" id="regFormData">
+                            <input type="text" placeholder="Username" name="login" class="input">
+                            <small class="small-reg">Input username!</small>
+
+                            <input type="email" placeholder="Email" name="email" class="input">
+                            <small class="small-reg">Input email!</small>
+
+                            <input type="text" placeholder="Name" name="name" class="input">
+                            <small class="small-reg">Input name!</small>
+
+                            <input type="password" placeholder="Password" name="pass1" class="input">
+
+                            <input type="password" placeholder="Retype password" name="pass2" class="input">
+                            <small class="small-reg"></small>
+                            <button type="submit" class="submit">Sign up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- EXIT MODAL -->
+            <!-- FOOTER OPEN -->
+                <?php
+                    require_once "elems/footer.php";
+                ?>
+            <!-- FOOTER CLOSE -->
     <script src="js/script.js"></script>
 </body>
 </html>
+<!-- Write Munira Kasymova End -->

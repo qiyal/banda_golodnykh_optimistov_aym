@@ -1,42 +1,31 @@
+<?php
+        // Write Musa Zhaksybay Start
+        require_once "config/db.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/home_page.css">
     <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/register.css">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
     <title>Home</title>
 </head>
 <body>
 <!-- HEADER OPEN -->
-    <header class="header">
-        <h1 id="title-cofe">Mandarin Café</h1>
-        <small id="little-title">coffee & sweets</small>
-        <div class="flex-box">
-            <div class="child">
-                <h2 class="slogan">#stay_home</h2>
-                <h2 class="slogan">Chocolate + Milk = Love</h2>
-            </div>
-            <nav class="nav-menu">
-                <ul class="nav-ul">
-                    <li><a class="nav-ul-a" href="index.html">Home</a></li>
-                    <li><a class="nav-ul-a" href="">Products</a></li>
-                    <li><a class="nav-ul-a" href="">About</a></li>
-                    <li><a class="nav-ul-a" href="">Service</a></li>
-                    <li><a class="nav-ul-a" href="contacts.html">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="child child-last">
-                <button id="btn-login">Log in</button>
-                <button id="btn-register">Register</button>
-            </div>
-        </div>
-    </header>
+    <?php 
+        require_once "elems/header.php";
+    ?>
 <!-- HEADER CLOSE -->
+    <!-- Write Musa Zhaksybay Start -->
+    <!-- Write Yerbolat Pazyl Start -->
 <!-- HOME OPEN -->
     <div class="main-container">
         <div class="poster-box">
@@ -75,29 +64,54 @@
                 <div class="paralax-box">
                     <div class="box">
                         <h2 class="paralax-title">With Tradition and Passion.<br>Handmade for You.</h2>
-                        <a href="">About Us</a>
+                        <a href="#" class="parallax-btn">About Us</a>
                     </div>
                 </div>
         </div>
 
-        <div class="box" style="height: 1000px;">
+        <!-- MODAL -->
+        <div class="window-box">
+            <div class="window">
+                <!-- Картинка крестика -->
+                <button class="close">X</button>
 
-        </div>
+            	<header class="header">
+                    <h1 id="title-cofe">Mandarin Café</h1>
+                    <small id="little-title">coffee & sweets</small>
+                </header>
 
-        <!-- <div class="footer">
-            <div class="footer-flex">
-                <div class="footer-ch1">
-                    <div class="footer-title-one"></div>
-                    <div class="footer-contect-one"></div>
+
+            	<div class="form">
+                    <h2>Sign up</h2>
+                    <form action="registration.php" method="POST" id="regFormData">
+                        <input type="text" placeholder="Username" name="login" class="input">
+                        <small class="small-reg">Input username!</small>
+
+                        <input type="email" placeholder="Email" name="email" class="input">
+                        <small class="small-reg">Input email!</small>
+
+                        <input type="text" placeholder="Name" name="name" class="input">
+                        <small class="small-reg">Input name!</small>
+
+                        <input type="password" placeholder="Password" name="pass1" class="input">
+
+                        <input type="password" placeholder="Retype password" name="pass2" class="input">
+                        <small class="small-reg"></small>
+                        <button type="submit" class="submit">Sign up</button>
+                    </form>
                 </div>
-                <div class="footer-ch2">
-                    <div class="footer-title-two"></div>
-                    <div class="footer-contect-tow"></div>
-                </div>  
             </div>
-        </div> -->
+        </div>
+        <!-- EXIT MODAL -->
     </div>
 <!-- HOME CLOSE -->
+<!-- FOOTER OPEN -->
+    <?php
+        require_once "elems/footer.php";
+    ?>
+<!-- FOOTER CLOSE -->
     <script src="js/script.js"></script>
+    <script src="js/parallax.js"></script>
 </body>
 </html>
+<!-- Write Yerbolat Pazyl End -->

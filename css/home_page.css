@@ -1,5 +1,7 @@
+/* Write Yerbolat Pazyl Start */
+
 .poster-box {
-    background: url("../assets/images/home/home0.jpg") no-repeat center center;
+    background: url("../assets/images/home/home0.webp") no-repeat center center;
     background-size: cover;
     height: calc(100vh - 270px);
     padding: 40px 0;
@@ -91,6 +93,9 @@
     font-size: 16px;
 }
 
+/* Write Yerbolat Pazyl End */
+
+/* Write Musa Zhaksybay Start */
 .home-slider {
     padding: 140px 0;
     /* background: green; */
@@ -115,15 +120,35 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: calc(80vh);
+    min-height: calc(88vh);
     color: #fff;
     background-image: url("../assets/images/home/paralax.webp");
     background-repeat: no-repeat;
     background-position: -340px -290px;
-    transition: background-position 180ms;
+    /*transition: background-position 180ms;*/
+    background-color: black;
 }
 
 .paralax-title {
-    font-size: 76px;
+    font-size: 66.5px;
+    margin-bottom: 40px;
 }
+
+.parallax-btn {
+    padding: 20px 50px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all .300s;
+}
+
+.parallax-btn:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+}
+
+/* Write Musa Zhaksybay End */
 

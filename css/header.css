@@ -1,3 +1,5 @@
+/* Write Yerbolat Pazyl Start*/
+
 .header {
     /*background: blue;*/
     margin: 0 15px;
@@ -84,10 +86,29 @@
     width: 100%;
 }
 
-#btn-login, #btn-register {
+.login-name {
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Barlow', sans-serif;
+    transform-origin: center;
+    transition: all .200s;
+    display: block;
+}
+
+.login-name:hover {
+    color: rgba(255, 160, 5, 0.6);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#btn-login, #btn-register, #btn-logout-exit {
     font-size: 17px;
     font-weight: 400;
     font-family: 'Barlow', sans-serif;
+    transform-origin: center;
+    transition: all .200s;
 }
 
 #btn-login {
@@ -101,7 +122,7 @@
     font-size: 18px;
 }
 
-#btn-register {
+#btn-register, #btn-logout-exit {
     padding: 0 20px;
     border: none;
     border-radius: 20px;
@@ -110,8 +131,12 @@
     text-align: center;
 }
 
-#btn-register:hover {
+#btn-register:hover, #btn-logout-exit:hover {
     background: rgba(0, 0, 0, 0.7);
     color: #fff;
 }
+
+/* Write Yerbolat Pazyl End */
+
+
 

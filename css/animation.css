@@ -1,5 +1,5 @@
-/* Modal Animation OPEN*/
-
+/* Modal Animation Start*/
+/* Write Pazyl Yerbolat Start*/
 @keyframes modal-open {
     0% {
         opacity: 0;
@@ -24,5 +24,29 @@
     }
 }
 
+@keyframes modal-reg-open {
+    0% {
+        opacity: 0;
+        margin: 0px auto 0;
+    }
 
-/* Modal Animation CLOSE*/
+    100% {
+        opacity: 1;
+        margin: 100px auto 0;
+    }
+}
+
+@keyframes modal-reg-close {
+    0% {
+        opacity: 1;
+        margin: 100px auto 0;
+    }
+
+    100% {
+        opacity: 0;
+        margin: 0px auto 0;
+    }
+}
+
+/* Write Pazyl Yerbolat End*/
+/* Modal Animation End*/

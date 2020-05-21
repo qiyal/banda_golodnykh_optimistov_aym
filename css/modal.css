@@ -1,3 +1,4 @@
+/* Write Pazyl Yerbolat Start */
 .modal {
     position: absolute;
     width: 100%;
@@ -41,13 +42,20 @@
 .btn-form-login {
     display: block;
     width: 75%;
-    margin: 25px auto 0;
+    margin: 25px auto 10px;
     height: 35px;
     border: none;
     border-radius: 22px;
     font-size: 16px;
     font-weight: 400;
+    transform-origin: center;
+    transition: all .250s;
 }
+
+.btn-form-login:hover {
+    transform: scale(1.05);
+}
+
 
 .btn-modal-close {
     border: none;
@@ -55,6 +63,11 @@
     display: block;
     font-weight: bold;
     font-size: 16px;
+    transition: all .250s;
+}
+
+.btn-modal-close:hover {
+    transform: rotate(180deg);
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -69,3 +82,13 @@
 ::-ms-input-placeholder { /* Microsoft Edge */
     color: #000;
 }
+
+#valid-one {
+    color: rgb(211, 49, 49);
+    font-weight: 400;
+    display: block;
+}
+
+
+
+/* Write Pazyl Yerbolat End */

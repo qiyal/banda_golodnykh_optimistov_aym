@@ -1,0 +1,225 @@
+/* Write Ayaulym Sibaeva Start */
+.bg-img {
+    background-image: url("../assets/images/about/backg-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 15px;
+    display: block;
+    padding-bottom: 140px;
+    padding-top: 350px;
+    margin-top: 2%;
+    color: #ffffff;
+}
+
+.title-about-text {
+    font-weight: 900;
+    text-align: center;
+    font-size: 55px;
+    margin-top: -130px;
+}
+
+.little-text {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: -110px;
+}
+
+.box-about1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 140px 40px;
+    margin: 0 40px;
+}
+
+.flex-child-about {
+    width: 50%;
+    float: right;
+}
+
+.ch-1-about {
+    background: url("../assets/images/about/image.jpg") no-repeat center;
+    width: 550px;
+    height: 380px;
+}
+
+.ch-2-about {
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    margin-right: 80px;
+}
+
+.tiny-text {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+}
+
+.box-about2 {
+    margin: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.flex-child-about2 {
+    width: 50%;
+    float: right;
+    background: #f5eaec;
+    margin-left: 80px;
+}
+
+.ch-3-about {
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.ch-4 {
+    background: url("../assets/images/about/bread.jpg") no-repeat center;
+    width: 550px;
+    height: 600px;
+}
+
+.next-text {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+}
+
+.button1 {
+    background-color:  #f5eaec;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid black;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.bg-img2 {
+    background-image: url("../assets/images/about/image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 15px;
+    display: block;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    margin-top: 7%;
+    color: #ffffff;
+    background-origin: content-box;
+    background-attachment: fixed;
+}
+
+.about-text {
+    font-weight: 900;
+    text-align: center;
+    font-size: 80px;
+    margin-top: -50px;
+}
+
+.ch-5 {
+    background: url("../assets/images/about/bread2.jpg") no-repeat center;
+    width: 550px;
+    height: 700px;
+}
+
+.ch-6 {
+    width: 400px;
+    height: 550px;
+    margin-right: 130px;
+}
+
+.our-team {
+    background-image: url("../assets/images/about/our_team.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 15px;
+    display: block;
+    padding-bottom: 140px;
+    padding-top: 180px;
+    color: #ffffff;
+}
+
+.box-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 40px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 23.5%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.out-team-list {
+    margin-bottom: 140px;
+    /*background-color: green;*/
+}
+/* Write Ayaulym Sibaeva End */
