@@ -50,21 +50,21 @@
                     <div class="ch-3-div">
                         We offer all day breakfast, brunch and a selection of take away snacks, breads and cakes.
                     </div>
-                    <a class="btn-a-style ch-3-a-btn" href="contacts.html">Our Stores</a>
+                    <a class="btn-a-style ch-3-a-btn" href="contacts.php">Our Stores</a>
                 </div>
             </div>
         </div>
 
         <div class="home-slider">
             <h2 class="h2-home">A Small Selection From <br> Our Bakery</h2>
-            <a class="btn-a-style" href="">All Products</a>
+            <a class="btn-a-style" href="products.php">All Products</a>
         </div>
 
         <div class="paralax">
                 <div class="paralax-box">
                     <div class="box">
                         <h2 class="paralax-title">With Tradition and Passion.<br>Handmade for You.</h2>
-                        <a href="#" class="parallax-btn">About Us</a>
+                        <a href="about.php" class="parallax-btn">About Us</a>
                     </div>
                 </div>
         </div>
@@ -112,6 +112,7 @@
 <!-- FOOTER CLOSE -->
     <script src="js/script.js"></script>
     <script src="js/parallax.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
 <!-- Write Yerbolat Pazyl End -->

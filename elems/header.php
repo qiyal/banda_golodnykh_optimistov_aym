@@ -21,7 +21,7 @@
                 <ul class="nav-ul">
                     <li><a class="nav-ul-a" href="index.php">Home</a></li>
                     <li><a class="nav-ul-a" href="products.php">Products</a></li>
-                    <li><a class="nav-ul-a" href="">Service</a></li>
+                   <!-- <li><a class="nav-ul-a" href="">Service</a></li> -->
                     <li><a class="nav-ul-a" href="about.php">About</a></li>
                     <li><a class="nav-ul-a" href="contacts.php">Contact</a></li>
                 </ul>

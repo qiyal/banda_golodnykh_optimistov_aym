@@ -51,7 +51,7 @@
                 <h1>Best Quality &<br>Gluten-Free<br><br></h1>
                 <br><br>
                 <p>Donec quam felis, ultricies nec,<br> pellentesque eu, pretium quis,<br> sem. Nulla consequat massa quis enim. <br><br></p>
-                <a class="button1">Show Products</a>
+                <a class="button1" href="products.php">Show Products</a>
             </div>
             <div class="flex-child-about2 ch-4"> </div>
         </div>
@@ -70,7 +70,7 @@
             <div class="flex-child-about ch-6">
                 <h1 style="font-size: 50px; font-weight: 900;">Come by and <br> experience real<br> taste.</h1><br>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean<br> commodo pellentesque eu, pretium quis, sem. Nulla consequat<br> massa quis enim. Donec pede justo, fringilla vel, aliquet nec.</p><br><br><br>
-                <a href="contacts.html" class="btn-a-style">Find a Store</a>
+                <a href="contacts.php" class="btn-a-style">Find a Store</a>
             </div>
         </div>
 
@@ -134,7 +134,7 @@
                   </div>
                 </div>
               </div></div>
-
+          
     </div>
 
     <!-- ABOUT CLOSE -->
