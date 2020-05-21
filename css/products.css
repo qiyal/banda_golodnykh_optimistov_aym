@@ -74,6 +74,36 @@ border-radius: 10px;
 background: #E6DEEA;
 }
 
+.list-data {
+    margin-bottom: 140px;
+}
+
+.filter-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-btn {
+    border: none;
+    background: transparent;
+    font-family: 'Barlow', sans-serif;
+    font-size: 17px;
+    padding: 5px 0;
+    margin: 0 5px;
+    color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    color: #000;
+}
+
+.active-filter {
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+
 /* Write Ayaulym Sibaeva End */
 
 
