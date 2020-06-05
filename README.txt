@@ -1,4 +1,4 @@
-Group: IS-1808K
+Group: IS-1808K | we r the best🥥🤍
 
 Students:
         1. Ayaulym Sibaeva
